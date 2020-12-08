@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserAddressActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/progressBar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fullname"
+                android:layout_margin="5px"
+                android:visibility="invisible"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:text="Full name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5px"
+                android:id="@+id/House"
+                android:visibility="invisible"
+
+                android:textSize="15dp"
+                android:text="House No."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/area"
+                android:layout_margin="5px"
+                android:visibility="invisible"
+                android:textSize="15dp"
+                android:text="Area colony"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city"
+                android:visibility="invisible"
+                android:layout_margin="5px"
+                android:textSize="15dp"
+                android:text="City, town"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pincode"
+                android:visibility="invisible"
+                android:layout_margin="5px"
+                android:textSize="15dp"
+                android:text="pincode"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:text="Change Address"
+                android:textColor="@android:color/white"
+                android:background="@drawable/red_card_background"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:id="@+id/changeaddressbutton"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

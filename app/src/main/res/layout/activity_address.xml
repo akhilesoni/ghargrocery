@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddressActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo1"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/deliverybike"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Add Address"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card_background"
+        android:padding="12dp"
+        android:id="@+id/fullname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="House No., Flat No..."
+        android:background="@drawable/card_background"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/house_no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area, colony, village"
+        android:background="@drawable/card_background"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/area"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City, Town"
+        android:background="@drawable/card_background"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/city"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pincode"
+        android:background="@drawable/card_background"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pincode"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Add Address"
+            android:id="@+id/submit"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/red_card_background"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+
+
+
+
+
+</LinearLayout>

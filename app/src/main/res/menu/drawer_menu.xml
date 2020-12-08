@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/dnav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/dnav_cart"
+            android:title="Cart"
+            android:icon="@drawable/ic_shopping_cart"/>
+        <item
+            android:id="@+id/dnav_setting"
+            android:title="Setting"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+    </group>
+    <item android:title="others">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                />
+            <item
+                android:id="@+id/admin"
+                android:title="admin"/>
+        </menu>
+    </item>
+</menu>

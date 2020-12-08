@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "895564815888",
+    "firebase_url": "https://ghar-grocery.firebaseio.com",
+    "project_id": "ghar-grocery",
+    "storage_bucket": "ghar-grocery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895564815888:android:d0c6f84506fc8848367495",
+        "android_client_info": {
+          "package_name": "com.ghargrocery.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895564815888-fdggccnloos9n3l5lrg4ltqu9sj0s4m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghargrocery.android",
+            "certificate_hash": "bb92ba1047296ce16ca9cb34fea16dde1c6dd211"
+          }
+        },
+        {
+          "client_id": "895564815888-fphuvo3tsrv7gn8jdb189auhqhua7fuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxuuIbKyr2vlrFGUI-HupDyTQWSffNPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895564815888-fphuvo3tsrv7gn8jdb189auhqhua7fuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

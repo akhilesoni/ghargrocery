@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <ImageView
+             android:layout_width="100dp"
+             android:layout_height="50dp"
+             android:src="@drawable/ghar_grocery_logo"/>
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:layout_marginTop="40dp"
+             android:src="@drawable/secure"
+             android:layout_marginBottom="30dp"/>
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/otpCode"
+             android:background="@drawable/card_background"
+             android:hint="Enter OTP"
+             android:padding="12dp"
+             android:layout_margin="20dp"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/verifyButton"
+             android:background="@drawable/card_background"
+             android:text="Verify"
+             android:textAlignment="center"
+             android:textStyle="bold"
+             android:textSize="15dp"
+             android:textColor="@color/colorPrimary"
+             android:padding="15dp"
+             android:layout_margin="20dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="resend code"
+             android:id="@+id/resendCode"
+             android:textSize="15dp"
+             android:layout_marginTop="10dp"
+             android:layout_gravity="center"/>
+     </LinearLayout>
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#63000000"
+         android:visibility="invisible"
+         android:id="@+id/tint"/>
+     <android.support.v7.widget.CardView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:visibility="invisible"
+         app:cardCornerRadius="8dp"
+         android:id="@+id/notice_card">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/notice_text"
+             android:text="notice"
+             android:visibility="invisible"
+             android:layout_gravity="center"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"/>
+         <ProgressBar
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"
+             android:visibility="invisible"
+             android:id="@+id/progressBar"/>
+     </android.support.v7.widget.CardView>
+ </RelativeLayout>
+
+
+</LinearLayout>
